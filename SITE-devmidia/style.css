@@ -44,6 +44,9 @@ body{
     font-size: 25px;
     margin-left: -5px;
 }
+main{
+    margin: auto;
+}
 .traco{
     background-color: #8b8b8b;
     padding: 0px 68px;
