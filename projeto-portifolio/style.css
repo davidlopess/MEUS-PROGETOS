@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+  
+    
+    background-image: url(https://c.wallhere.com/photos/fe/04/women_model_brunette_hair_in_face_looking_at_viewer_brown_eyes_portrait_face-1741435.jpg!d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+ 
+}
+header{
+    display:flex; 
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-top: 30px;  
+ 
+}
+header h1{
+    font-size: 0.90em;
+    background-color: rgb(23, 155, 255);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.323);
+}
+header h1:hover{
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+}
+#dest{
+    color: rgb(23, 155, 255);
+}
+li, a{
+    margin:0px 15px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+ a:hover{
+    background-color: rgba(109, 109, 109, 0.33);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+/* ========================== */
+main{
+    margin: auto;
+    width: 90%;
+    padding: 6em 0px 0px 30px;
+    text-align: start;
+    
+}
+h6{
+    padding: 10px 0px;
+    font-size: 14px;
+    color:  rgb(23, 155, 255);
+    font-style: italic;
+}
+main h1{
+    padding: 15px 0px;
+    font-size: 2.5em;
+    font-family: monospace;
+}
+span p{
+    background-color: rgb(23, 155, 255) ;
+    padding: 5px 0px;
+   width: 30%;
+   text-align: center;
+   margin-bottom: 20px;
+   font-style: italic;
+   color: black;
+}
+main p{
+    line-height: 1.5;
+    
+}
