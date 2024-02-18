@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+section{
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    height: 100vh;   
+}
+.primeiro{
+    background-color:#FDE591;
+    width: 645px;
+    padding: 0px;
+    margin: 0px; 
+}
+.segundo{
+    background-color: white;
+    width:60%;
+    
+}
+section img{
+    width: 100px;
+    margin: 30px 0px 0px 7.5em;
+}
+
+ul {
+    list-style: none;
+   
+    margin: 30px;
+    text-align: center;
+    
+
+}
+li{
+    display: inline;
+    margin: 17px;
+    font-weight: bolder;
+   
+    
+   
+}
+li a{
+    text-decoration: none;
+   
+}
+li a:hover{
+    border-bottom: 1px solid black;
+   transition: 0.5s;
+   
+   
+}
+
+
+li img{
+    width: 15px;
+    margin: 0;
+    
+}
+li a{
+    color: rgb(98, 98, 98);;
+    text-decoration: none;
+   
+}
+
+.imagem{
+    display: flex;
+    
+    align-items: center;
+}
+.imagem img{
+    width: 300px;
+}
+
+.img1{
+    width: 250px;
+}
+.img2{
+    margin-bottom: -7em;
+}
+
+aside{
+    width: 530px;
+    background-color: white;
+    margin:80px 0px 0px 100px ;
+}
+aside p{
+    padding: 0px 0px 10px 0px;
+    color:  rgb(98, 98, 98);;
+}
+
+h1{
+    font-size: 4.5em;
+    margin-left: 0px;
+    color:  rgb(98, 98, 98);;
+}
+#inport{
+    padding: 50px 0px 0px 0px;
+    color:  rgb(98, 98, 98);
+}
+button{
+    background-color: rgb(98, 98, 98);
+    color: white;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px ;
+}
+button:hover{
+    background-color: rgb(78, 77, 77);
+    transition: .5s;
+    cursor: pointer;
+}
+.advantages img{
+    width: 320px;
+    margin: 0;
+    padding-top: 50px;
+}
+#seta{
+    margin-left: 0px;
+    width: 15px;
+    color: black;
+}
+#seta img{
+    
+    
+}
