@@ -94,5 +94,7 @@ nav ul a{
     margin: 10px;
     border-radius: 50px;
     font-size: 12px;
+   position: absolute;
+ color: rgba(82, 52, 52, 0);
 
 }
